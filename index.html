@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <title>Practice Site ko lang boss</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="img/code.png">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="box-box" id="home">
+        <h1 class="animate__animated animate__fadeInDownBig animate__slow">ROVIC DELOY</h1>
+        <p class="animate__animated animate__fadeInTopRight animate__slow"> I am Rovic Deloy, a 20-year-old living in <br> Binangonan, Rizal. Currently, I am a student at ICCT Colleges. <br>I desire to become a Full-Stack Developer, passionate about <br>building unique solutions using technology.</p>
+    </div>
+
+    <div class="social-links">
+        <a href="https://discord.com/users/makuzawa420" target="_blank" class="animate__animated animate__flip animate__slower"><i class="bx bxl-discord-alt"></i></a>
+        <a href="https://www.reddit.com/user/Full-Safe6326/" target="_blank" class="animate__animated animate__flip animate__slower"><i class="bx bxl-reddit"></i></a>
+        <a href="https://www.facebook.com/Dooomerr" target="_blank" class="animate__animated animate__flip animate__slower"><i class="bx bxl-facebook-circle"></i></a>
+    </div>
+
+    <div class="image-ko animate__animated animate__backInDown animate__slow">
+        <img src="/img/proflle.png">
+    </div>
+
+    <section id="about" class="section">
+        <div class="about-container">
+            <h2 class="animate__animated animate__bounceInLeft animate__slow"> ABOUT ME <img src="img/aboutme.png" alt="About icon">
+            </h2>
+            <div class="image-wrapper">
+                <img class="inform animate__animated animate__zoomInDown animate__slower" src="img/dosdado.png" alt="Image Description">
+            </div>
+            <p class="animate__animated animate__fadeInTopRight animate__slow">
+                I am a passionate and dedicated programmer with a strong interest in web development. I am currently studying at ICCT Colleges and I am eager to learn and apply new programming languages and frameworks to real-world problems. In my free time, I enjoy playing video games and learning new skills.
+            </p>
+
+            <button class="btn-17 animate__animated animate__rotateInUpLeft animate__slow" onclick="window.location.href='#education'">
+                <span class="text-container">
+                    <span class="text">HIT ME</span>
+                </span>
+            </button>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="education-container">
+            <h2 class="animate__animated animate__bounceInLeft animate__slow">𝐸𝒹𝓊𝒸𝒶𝓉𝒾𝑜𝓃<img src="img/education.png" alt="Education icon">
+            </h2><br>
+            <div class="education-details">
+                <div class="education-column animate__animated animate__backInLeft animate__slow">
+                    <img src="img/mabuhay.png" alt="Elementary School Logo">
+                    <h3>MABUHAY HOMES 2000 ELEMENTARY SCHOOL</h3>
+                    <p>(Graduated)</p>
+                    <p>2010 -2016</p>
+                </div> 
+                <div class="education-column  animate__animated animate__fadeInDown animate__slow">
+                    <img src="img/vmis.png" alt="High School Logo">
+                    <h3>VICENTE MADRIGAL INTEGRATED SCHOOL</h3>
+                    <p>(Graduated)</p>
+                    <p>June 2016 - June 2022</p><br>
+                    <p>ICT: Information Communication <br>technology</p>
+                </div>
+                <div class="education-column animate__animated animate__backInRight animate__slow">
+                    <img src="img/icct.png" alt="College Logo">
+                    <h3>ICCT COLLEGES</h3>
+                    <p>(Undergraduate)</p>
+                    <p>September 2022 - Present</p>
+                    <br>
+                    <p>BSIT: Bachelor of Science in Information Technology </p>
+                </div>
+            </div>
+
+            <button class="btn-17 animate__animated animate__rotateInUpLeft animate__slow" onclick="window.location.href='#contact'">
+                <span class="text-container">
+                    <span class="text"> HIT ME BRO! </span>
+                </span>
+            </button>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="contact-container">
+            <h2 class="animate__animated animate__bounceInLeft animate__slower">Contact Me <img src="img/contact.png" alt="Contact icon"></h2>
+            
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="animate__animated animate__fadeIn animate__slower>">
+                <input type="hidden" name="access_key" value="42a6ca64-9f21-49f7-bafa-5835247f5950">
+                <div class="form-group animate__animated animate__fadeInTopRight animate__slower">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group animate__animated animate__rollIn animate__slower">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group animate__animated animate__fadeInBottomRight animate__slower">
+                    <textarea name="message" id="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <div class="form-group animate__animated animate__fadeInUp animate__slow">
+                    <button type="submit" class="btn-submit">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>Rovic Deloy &copy; 2024</p>
+        </div>
+    </footer>
+    
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
